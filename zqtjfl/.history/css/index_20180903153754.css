@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+*{
+    box-sizing: border-box;
+}
+.titleBar{
+    width: 100%;
+    height: 3.67em;
+    background: #fff;
+    position: relative;
+
+
+}
+.arrow{
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 0 1em;
+}
+.arrow img{
+    vertical-align: middle;
+    height: 45%;
+}
+
+.arrow span{height: 100%;vertical-align: middle;display: inline-block}
+
+.page_title{
+    font-size: 1.8em;
+    color: #222222;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: table;
+    vertical-align:middle
+}
+
+.page_title .content{
+    display: table-cell;
+    vertical-align:middle
+}
+
+
+.main_container{
+    width: 100%;
+    padding-top: 5.34%;
+}
+.title{
+    padding-left: 5.34%;
+    font-size: 2.4em;
+    /* font-weight: bolder; */
+    color: #333333;
+    line-height: 100%;
+}
+.slogan{
+    padding-left: 5.34%;
+    margin-top: 4.3%;
+    font-size: 1.5em;
+    color: #95a0b1;
+    line-height: 150%;
+}
+.banner_contain{
+    position: relative;
+    width: 100%;
+    height: 0;
+    margin-top: 9.67%;
+    padding-bottom: 80%;
+    overflow: hidden;
+}
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 106.8%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none; 
+    padding-bottom: 5.34%;
+}
+.banner::-webkit-scrollbar { 
+    width: 0 !important;
+    display:none}
+
+
+    .banner::-webkit-scrollbar {
+        width:0px;
+        height:0px;
+    }
+    .banner::-webkit-scrollbar-button    {
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-webkit-scrollbar-track     {
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-webkit-scrollbar-track-piece {
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-webkit-scrollbar-thumb{
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-webkit-scrollbar-corner {
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-webkit-scrollbar-resizer  {
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-webkit-scrollbar {
+        width:10px;
+        height:10px;
+    }
+    /*o内核*/
+    .banner .-o-scrollbar{
+        -moz-appearance: none !important;   
+        background: rgba(0,255,0,0) !important;  
+    }
+    .banner::-o-scrollbar-button    {
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-o-scrollbar-track     {
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-o-scrollbar-track-piece {
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-o-scrollbar-thumb{
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-o-scrollbar-corner {
+        background-color:rgba(0,0,0,0);
+    }
+    .banner::-o-scrollbar-resizer  {
+        background-color:rgba(0,0,0,0);
+    }
+
+.banner_container{
+    height: 100%;
+}
+.banner_container a{
+    float: left;
+    height: 100%;
+    padding-left: 1.67em;
+}
+.banner_container img{
+    height: 100%;
+}
+
+.block_title{
+    font-size: 2.4em;
+    /* font-weight: bolder; */
+    color: #666666;
+    padding-left: 5.34%;
+    line-height: 100%;
+
+}
+.block_title span{
+    font-size: 0.5em;
+}
+.om_block{
+    width: 100%;
+    margin-top: 10.67%;
+}
+.om_card{
+    position: relative;
+    margin-top: 0.2%;
+    width: 100%;
+    height: 0;
+    background: url("../images/card_bg.png") no-repeat;
+    background-size: 94% auto;
+    padding-bottom: 48%;
+    background-position: center;
+}
+.om_card_title{
+    position: absolute;
+    font-size: 2.4em;
+    /* font-weight: bold; */
+    color: #333333;
+    left: 10.8%;
+    top: 16.6%;
+}
+.om_card_slogan{
+    position: absolute;
+    font-size: 1.5em;
+    /* font-weight: bold; */
+    color: #666666;
+    left: 10.8%;
+    top: 36%;
+}
+.om_card_woman{
+    position: absolute;
+    left: 50%;
+    top: -8%;
+}
+.om_catch{
+    position: absolute;
+    left: 10.8%;
+    top: 56%;
+    width: 12%;
+}
+.om_leave{
+    position: absolute;
+    font-size: 1.5em;
+    color: #ff7633;
+    left: 10.8%;
+    top: 64.7%;
+}
+.om_leave span{
+    color: #ff7633;
+    
+}
+.hot_recommand_block{
+    width: 100%;
+    margin-top: 7.67%;
+}
+
+.hr_card_mt{
+    /* margin-top: 1%; */
+}
+.hr_card{
+    position: relative;
+    width: 100%;
+    height: 0;
+    background: url("../images/card_bg2.png") no-repeat;
+    background-position: center;
+    background-size: 94% auto;
+    padding-bottom: 43%;
+
+}
+.hr_card_icon{
+    position: absolute;
+    width: 22.4%;
+    left: 10.8%;
+    top: 24.6%;
+}
+.hr_card_title{
+    position: absolute;
+    left: 38.6%;
+    top: 21.6%;
+    color: #333333;
+    font-size: 2.4em;
+    /* font-weight: bolder; */
+}
+.hr_card_slogan{
+    position: absolute;
+    left: 38.6%;
+    width: 57%;
+    color: #666666;
+    padding-right: 5.3%;
+    font-size: 1.5em;
+    top: 43.6%;
+    line-height: 120%;
+}
+
+.hr_card_price{
+    position: absolute;
+    left: 38.6%;
+    color: #ff7633;
+    font-size: 1.5em;
+    top: 69.6%;
+}
+.hot_act_block{
+    width: 100%;
+    margin-top: 8.2%;
+}
+.hot_bg{
+    position: relative;
+    margin: 5.34% auto 0;
+    width: 89.3%;
+    height: 0;
+    background: url("../images/ha_bg.png") no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 25%;
+
+}
+.hot_title{
+    position: absolute;
+    top: 23%;
+    left: 5.8%;
+    font-size: 1.8em;
+    color: #fff;
+
+}
+.hot_slogan{
+    position: absolute;
+    top: 52%;
+    left: 5.8%;
+    font-size: 1.5em;
+    color: #fff;
+}
+.hot_btn{
+    position: absolute;
+    top: 31%;
+    left: 66.9%;
+    width: 27%;
+    background: url(../images/btn_bg.png) no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    color: #f54651;
+    font-size: 1.4em;
+    padding: 3% 0;
+}
+
+.company{
+    margin-top: 10.4%;
+    font-size: 1.8em;
+    text-align: center;
+    color: #b3bcca;
+    line-height: 100%;
+}
+.contact{
+    margin-top: 10.67%;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fc4e5a;
+    line-height: 100%;
+}
+.logo{
+    margin-top: 5.34%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.logo img{
+    width: 37%;
+}
