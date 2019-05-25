@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #3098d8;
+    padding:2.67%;
+}
+*{
+    box-sizing: border-box;
+}
+.main_container{
+    position: relative;
+    width: 100%;
+    height: 0;
+    background: url("../images/midautumn-12.png") no-repeat;
+    background-size: 100% auto;
+    padding-bottom: 209%;
+}
+
+.main_logo{
+    position: absolute;
+    width: 35.2%;
+    top: 1.4%;
+    left: 3.4%
+}
+.main_banner{
+    width: 100%;
+    text-align: center;
+    padding-top: 4.3%;
+}
+.banner{
+    width: 91.54%;
+}
+
+.main_subtitle{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+}
+.subtitle{
+    width: 67.3%;
+}
+.share{
+    position: absolute;
+    width: 10.98%;
+    right: 1%;
+    top: 20%;
+
+}
+.main_content1{
+    position: relative;
+    width: 88%;
+    height: 0;
+    margin: 2.8% auto 0;
+    padding-bottom: 38%;
+}
+.label_img1{
+    position: absolute;
+    width: 12%;
+    left: 2.56%;
+    top:-1.28%;
+}
+.content1_title{
+    position: absolute;
+    color: #5b3216;
+    font-weight: bold;
+    font-size: 1.8rem;
+    left: 16.5%;
+    top: 3.4%;
+}
+.content1_detail{
+    position: absolute;
+    color: #5b3216;
+    font-size: 1.6rem;
+    left: 4.2%;
+    top: 29.4%;
+}
+.qrcode{
+    position: absolute;
+    width: 47%;
+    right: 1%;
+    top: -5.6%;
+}
+
+.main_content2{
+    position: relative;
+    width: 88%;
+    height: 0;
+    margin: 6.1% auto 0;
+    padding-bottom: 38%;
+}
+.label_img2{
+    position: absolute;
+    width: 12%;
+    left: 2.56%;
+    top:-1.28%;
+}
+.content2_title{
+    position: absolute;
+    color: #5b3216;
+    font-weight: bold;
+    font-size: 1.8rem;
+    left: 16.5%;
+    top: 3.4%;
+}
+.content2_detail1{
+    position: absolute;
+    color: #5b3216;
+    font-size: 1.6rem;
+    top: 29.4%;
+    width: 100%;
+    text-align: center;
+}
+.content2_detail2{
+    top: 46.4% !important;
+}
+.content2_img{
+    position: absolute;
+    width: 100%;
+    top: 64.4%;
+    text-align: center;
+}
+.content2_img img{
+    width: 59.2%;
+}
+.main_rules{
+    width: 100%;
+    margin-top: 7.5%;
+    text-align: center;
+    color:#5b3216;
+    font-size: 1.6rem;
+}
+.footer{
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.modal_rules{
+    position: absolute;
+    top: 15%;
+    left: 9.2%;
+    width: 81.6%;
+    z-index: 101;
+    height: 0;
+    padding-bottom: 87%;
+    background: url("../images/midautumn-18.png") no-repeat;
+    background-size: 100% auto;
+}
+.modal_rules_detail{
+    position: absolute;
+    color: #231815;
+    font-size: 1.6rem;
+}
+.modal_rules_img{
+    position: absolute;
+    width: 7.83%;
+    left: 3.3%;
+}
+.modal_rules_img1{
+    top: 22.1%;
+}
+.modal_rules_detail1{
+    top: 22.1%;;
+}

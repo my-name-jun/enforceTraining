@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.hide{
+    display: none;
+}
+.main_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.success_bg{
+    margin-top: 14.67%;
+    width: 21.34%;
+}
+.success_label{
+    margin-top: 8%;
+    font-size: 2.4em;
+    color: #333333;
+    line-height: 100%;
+}
+.tree{
+    width: 89.4%;
+    margin-top: 9.34%;
+    padding-left: 6%;
+}
+.form_btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #ff9c00;
+    font-size: 1.8em;
+    margin-top: 10.68%;
+    padding: 3.08% 0;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .loading table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
